@@ -40,12 +40,18 @@ p {
     margin: 0 0 3rem 0;
 }
 
+video {
+    max-width: 100%;
+    height: auto;
+}
+
 img {
     margin: 0 0 3rem 0;
+    max-width: 100%;
+    height: auto;
 }
 
 @media (max-width: 28.75em) {
-    
     video {
         width: 90vw;
     }
